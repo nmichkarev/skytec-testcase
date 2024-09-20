@@ -12,3 +12,6 @@ npm run update:db
 ```bash
 npm start
 ```
+
+Method to create purchase:
+[POST - http://localhost:5000/purchase](http://localhost:5000/purchase)
