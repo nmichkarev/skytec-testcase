@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@sinclair/typebox": "^0.33.12",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/pg": "^8.11.10",
+    "typescript": "^5.6.2"
+  },
+  "name": "skytec-testcase",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "update:db": "node ./dist/migrations/create-tables.js",
+    "start": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmichkarev/skytec-testcase.git"
+  },
+  "author": "nmichkarev@mail.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmichkarev/skytec-testcase/issues"
+  },
+  "homepage": "https://github.com/nmichkarev/skytec-testcase#readme",
+  "description": ""
+}

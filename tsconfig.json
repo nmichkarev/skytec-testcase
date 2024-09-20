@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "sourceMap": true,
+  },
+  "exclude": ["./**/dist/**/*"],
+  "include": ["src/**/*"]
+}
